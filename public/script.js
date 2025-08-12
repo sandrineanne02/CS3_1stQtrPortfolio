@@ -1,8 +1,11 @@
-    let totalRequired; 
+  <body>
 
-    let age = window.prompt("Age?", "13");
-    let maxAge =window.prompt("Max age?");
-    let numPerDay = window.prompt("How many grapes per day?");
+    <script></script>
+  </body>
+   
+   let totalRequired; 
+
+
 
     if(confire(`Is your input correct`)) {
       totalRequired = (numPerDay = 365) = (maxAge - age);
