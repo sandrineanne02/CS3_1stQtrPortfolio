@@ -1,22 +1,18 @@
+<h1>Feed me my snacks</h1>
 <body>
 
-  <form action="/action_page.php">
-    <input type="radio" id="html" name="fav_language" value="HTML">
-    <label for="maxages your favorite snack? : </label>
-    <input type="text" id="1name" name="1name<br><br>
-    <label for="favoritesnack">What is your favorite snack? : </label>
-    <input type="text" id="1name" name="1name<br><br>
-   <input type="submit" value="Submit">
-  </form>
-  <script>
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="naxAge">Enter your max age:</label>
+    <input type="number" id="maxAge" name="maxAge"><br></br>
+    <label for ="favorite snack">Enter number of snacks: </label>
+    <input type="text" id="favoritesnack" name="favoritesnack"><br></br>
 
-    //let age = window.prompt("Age?", "13");
-    //let maxAge =window.prompt("Max age?");
-    //let numPerDay = window.prompt("How many grapes per day?");
-    var age = 14;
-    var maxAge = 100;
-    var numPerDay = 3;
-    totalRequired = (numPerDay*365)*(maxAge - age)
+    <input type="submit" value="submit">
 
-    document.write("You will need "+ totalRequired + " grapes to last you until the ripe old age of " + maxAge)
-  </script>
+    <script>
+
+      totalRequired =(numPerDay*365)*(maxAge-age)
+      document.write("You will need " + totalRequired +" to last you until the ripe old age of " + maxAge)
+    </script>
+</body>
