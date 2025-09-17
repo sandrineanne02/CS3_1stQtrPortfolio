@@ -28,5 +28,4 @@
 1. Kahoot exercises - This was helpful to me because it helped me remember the concepts and simple codes discussed in the previous lessons. I also got to learn unfamiliar topics through these exercises.
 2. Homework exercises - This helped me further understand the code needed to be changed or made. I also got to think more clearly since I was doing it at home. 
 
-1. In-class coding exercises - This was not that effective for me because I had to rush the process of making the code. I also didn't really get to absorb the information that well compared to my first two examples since it was a speed test.
-2. As for the 2nd one, nothing comes to mind that was not effective in my learning. All of them helped me understand code better.
+1. In-class coding exercises - This was not that effective for me because I had to rush the process of making the code. I also didn't really get to absorb the information that well compared to my first two examples since it was a speed test. (As for the 2nd one, nothing comes to mind that was not effective in my learning. All of them helped me understand code better.)
