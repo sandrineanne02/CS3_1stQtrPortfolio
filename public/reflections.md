@@ -1,5 +1,5 @@
 # Be12 GABORNI, Sandrine Anne V.'s Reflection
-## List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with twoto five sentences.
+## List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
 
 1.  JavaScript Overview and Syntax - The basic concepts and background information of what JavaScript is was shown here. Simple code format was also discussed in this section.
 
