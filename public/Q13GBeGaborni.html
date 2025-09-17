@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<title>Q13GBeGaborni.html</title>
+
+<body>
+   <h2> Q1 3rd Graded Exercise submitted by Sandrine Anne Gaborni of 9-Beryllium </h2>
+
+   <p>Guess the number : ****</p>
+   <p>The number is from 1 to 100</p>
+
+   <label for="guess">Enter your guess : </label>
+   <input type="text" id="guess">
+   <br><br>
+   <button onclick="checkIt()">Check It</button>
+
+   <p id="result">Result: </p>
+
+   <script>
+       var dNumber = Math.floor(Math.random() * 100) + 1;
+
+       function checkIt() {
+           var userGuess = document.getElementById("guess").value;
+           userGuess = Number(userGuess); 
+
+           if (userGuess < dNumber) {
+               document.getElementById("result").innerHTML = "Result: Higher";
+           } 
+           else if (userGuess > dNumber) {
+               document.getElementById("result").innerHTML = "Result: Lower";
+           } 
+           else if (userGuess === dNumber) {
+               document.getElementById("result").innerHTML = "Result: You are correct!";
+           } 
+           else {
+               document.getElementById("result").innerHTML = "Result: Please enter a valid number.";
+           }
+       }
+   </script>
+
+   <footer>
+       <p>
+          Reference/s: <em>W3Schools.com.</em> (n.d.-b). https://www.w3schools.com/html/
+       </p>
+   </footer>
+
+</body>
+</html>
